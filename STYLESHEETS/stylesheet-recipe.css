@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Suranna&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+
+
+.recipeName {
+    background-image: url('https://images.unsplash.com/photo-1556178676-83ce55dc622f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1542&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Suranna', serif;
+    text-shadow:3px 3px #423e31 ;
+    font-size: 40px;
+    color: #cb8e7e;
+    opacity: 0.9;
+    margin: 0;
+    padding: 0; 
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 1015px){
+    .recipeName {
+        width: 100%;
+        text-align: center;
+    }
+    
+}
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0; 
+    text-align: center;
+    color: #423e31;
+    background-color: #f5dacc;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.description p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    width: 80%;
+    margin: 3% auto;
+    margin-bottom: 0;
+}
+
+.icon {
+    width: 17em;
+}
+
+
+.ingredients {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    color: #423e31;
+    font-family: 'Roboto';
+    font-size: 16px;
+    width: 100%;
+
+}
+.ingredients h4 {
+    font-family: 'Suranna';
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ingredients ul {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    line-height: 2em; 
+    text-align: center;
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+.strawberries {
+    width: 17em;
+}
+
+.stepByStep {
+        font-family: 'Suranna';
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px; 
+}
+
+.instructions {
+    display: flex; 
+    width: 90%;
+    justify-content: center; 
+    align-items: flex-start;
+    line-height: 2em; 
+    color: #423e31;
+    font-size: 16px;
+    font-family: 'Roboto';    
+}
+
+.instructions p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.instructions ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    width: 100%;
+    padding-left: 5rem;
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 1015px){
+    .instructions {
+        display: flex; 
+        flex-direction: column;
+        width: 80%;
+        justify-content: center; 
+        align-items:center;  
+        flex-wrap: wrap;
+        margin: 10px auto;
+    }
+
+    .instructions ol {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+}
+
+
+.garnish {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    line-height: 2em; 
+    color: #423e31;
+    font-size: 16px;
+    font-family: 'Roboto';  
+    width: 100%;
+}
+
+.garnish h4 {
+    font-family: 'Suranna';
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 1015px){
+ .garnish {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+}
+
+.strawberries2 {
+    width: 17em;
+    margin: 10px auto;
+}
+
+
+/*---------------------------------------------------FOOTER----------------------------------------------------------*/
+footer{
+    background-color: #cb8e7e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+  }
+  
+  .footerleft{
+    display: flex;
+    width: 70%;
+  }
+  
+  .leftone img{
+    width: 100px;
+  }
+  
+  .lefttwo{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: flex-start;
+  }
+  
+  .lefttwo h4{
+    color: white;
+    display: inline-block;
+    margin: 0 2em 0 0;
+  }
+  
+  .lefttwo input{
+    width: 50%;
+    background-color: #cb8e7e; 
+    color: white;
+    margin: .5em 0 .5em 0;
+  }
+  
+  .lefttwo button{
+    background-color: #423e3a; 
+  }
+  
+  .lefttwo button:hover{
+    background-color: #f5dacc;
+  }
+  
+  
+  .footerright{
+    width: 40%;
+    margin-top: 0;
+  
+  }
+  
+  .footerright h4{
+    color: white;
+  }
+  
+  .footerright img{
+    width: 50px;
+  }
+  
+  .footerright img:hover{
+    background-color: #423e3a;
+  }
+  
+
+
+  button {
+    background-color: #cb8e7e;
+    color: #FFFFFF;
+    font-weight: bold; 
+    font-family: Roboto;
+    width: 140px;
+    border: none;
+    padding: .6em;
+    margin-top: 2em;
+  }
+  
+  button:hover{
+    background-color: #423e3a;
+  }
+  
+  input{
+    border: white solid 1.7px;
+    border-radius: .5em;
+    padding: .2em;
+    width: 53%;
+    background-color: #423e3a;
+  }
+  
+  ::placeholder {
+    color: white;
+    font-family: Roboto;
+}

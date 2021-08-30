@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel='shortcut icon' type='image/x-icon' href='./img/COOKBOOK_logo_2.png'/>
+	<title>COOKBOOK | HOME</title>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!------------------STYLESHEETS----------------->
+    <link rel="stylesheet" href="./STYLESHEETS/general-stylesheet.css">
+    <link rel="stylesheet" href="./STYLESHEETS/stylesheet-home.css">
+ 
+    <!------------------GOOGLE FONTS----------------->
+    <link href='https://fonts.googleapis.com/css?family=Markazi+Text|Roboto:400,400i,700,700i' rel='stylesheet' type='text/css'>
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.2.2/font/bootstrap-icons.css">
+    <script type="text/javascript" src="./CATEGORIES/cycle2.js"></script>
+    <script type="text/javascript" src="./CATEGORIES/jquery.js"></script>
+    <script type="text/javascript" src="./CATEGORIES/declerativeToggle.js"></script>
+</head>
+
+<body>
+<!-- -----------------------------HEADER------------------------------->
+    <header class="section">
+			
+        <!-- container -->
+        <div class="container">
+          <a href="#" class="navbar-brand">
+            <img src="./img/16.png" alt="logo" class="d-inline-block align-top logo"/>
+          COOKBOOK
+          </a>
+          <span data-toggle-target=".site-nav" class="toggle-btn"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#f5dacc" class="bi bi-card-list" viewBox="0 0 16 16">
+            <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+            <path d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8zm0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-1-5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zM4 8a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm0 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+          </svg></span> 
+          <nav class="site-nav">
+            <ul class="group">
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">RECIPES</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
+      
+        <div class="title">
+          <h1 class="catTitle">COOKBOOK ON THE GO</h1>
+          <p class="catSlogan">REAL RECIPES, FOR REAL PEOPLE, REAL FAST</p>
+        </div>
+          
+      </header>
+
+    <!------------------------------------------HEADER START------------------------------------- -->
+
+
+    <!------------------------------------------TITLE DESCRIPTION--------------------------------------->
+    <div class="description">
+        <h2>A COOKBOOK FOR YOU AND ME</h2>      
+        <p>We all love eating yummy food. But sometimes we don't have a lot of time on our hands to 
+            make something special. This cookbook is for everybody who is looking for quick, simple and nutritious 
+            recipes. No matter if you're on a roadtrip or stuck in a coding webinar, this website will provide you with 
+            recipes that don't require a lot of ingredients, time or cooking skills. Enjoy!</p> 
+        <img src="./img/icon cooking.png" alt="keep cookin" />
+        <br>
+    </div>    
+   
+    <!---CARDS-->
+    <div class="containercards" id="trending">
+        <div class="containertop">
+            <h3>TRENDING RECIPES</h3>
+        </div>
+        <div class="containerbottom" id="show">
+            <div class="cardone">
+                <div class="overlay">   
+                    <p>STRAWBERRY PANNA COTTA</p>
+                    <a href="./RECIPES/recipe.html"><button class="hovercard">TRY IT!</button></a>
+                </div>
+            </div>
+            <div class="cardtwo">
+                <div class="overlay">
+                    <p>SWEDISH MEATBALLS</p>
+                    <button class="hovercard">TRY IT!</button>
+                </div>
+            </div>
+            <div class="cardthree">
+                <div class="overlay">
+                    <p>FRUITY FRENCH TOAST</p>
+                    <button class="hovercard">TRY IT!</button>
+                </div>
+            </div>
+            <div class="cardfour">
+                <div class="overlay">
+                    <p>SLOW BAKED SALMON</p>
+                    <button class="hovercard">TRY IT!</button>
+                </div>
+            </div>
+            <div class="cardfive">
+                <div class="overlay">
+                    <p>HALOUMI SANDWICH</p>
+                    <button class="hovercard">TRY IT!</button>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <!------------------------------------------HIDDEN RECIPES--------------------------------------->
+
+        <div class="containerbottom hidden" id="hidden-recipes">
+            <div class="cardsix">
+                <div class="overlay">   
+                    <p>RASPBERRY CAKE</p>
+                    <button class="hovercard">TRY IT!</button>
+                </div>
+            </div>
+            <div class="cardseven">
+                <div class="overlay">
+                    <p>BUDDHA BOWL</p>
+                    <button class="hovercard">TRY IT!</button>
+                </div>
+            </div>
+            <div class="cardeight">
+                <div class="overlay">
+                    <p>CHICKEN WRAP</p>
+                    <button class="hovercard">TRY IT!</button>
+                </div>
+            </div>
+            <div class="cardnine">
+                <div class="overlay">
+                    <p>POTATO CASSEROLE</p>
+                    <button class="hovercard">TRY IT!</button>
+                </div>
+            </div>
+            <div class="cardten">
+                <div class="overlay">
+                    <p>PUMPKIN SOUP</p>
+                    <button class="hovercard">TRY IT!</button>
+                </div>
+            </div>
+        </div>
+            <br>
+            <button class="see-more-button">CLICK ME</button>
+    </div>
+
+  
+
+    <!------------------------------------------CATEGORIES--------------------------------------->
+    
+    <div class="categories" id="categories"> 
+        <div class="categoriestop">
+            <h3>CATEGORIES</h3>
+        </div>
+        <div class="categoriesbottom">
+            <div class="categoryone">
+                <div class="overlay"> 
+                <p><a class="linkclass" href="./CATEGORIES/category-one.html">20 MINUTES</a></p>
+                </div>
+            </div>
+            <div class="categorytwo">
+                <div class="overlay"> 
+                <p>ALL IN ONE POT</p>
+                </div>
+            </div>
+            <div class="categorythree">
+                <div class="overlay"> 
+                <p>LEFTOVER MAGIC</p>
+                </div>
+            </div>
+            <div class="categoryfour">
+                <div class="overlay"> 
+                <p>COLD RECIPES</p>
+                </div>
+            </div>
+        </div>
+      
+   </div>
+    </div>
+           
+
+    <!------------------------------------------FOOTER--------------------------------------->
+    <footer>
+        <div class="footerleft">
+            <div class="leftone">
+             <img src="./img/COOKBOOK_logo_2.png" alt="">
+            </div>
+            <div class="lefttwo">
+                <h4>SIGN UP FOR OUR NEWSLETTER</h4>
+                <input type="text" name="" id="" placeholder="eMail adress">
+                <button class="submit-button">SUBMIT</button>
+            </div>
+        </div>
+         
+
+        <div class="footerright">
+            <h4>FOLLOW US ON SOCIAL MEDIA!</h4>
+            <a href="https:/www.facebook.com" target="_blank"><img src="./img/facebook.png" alt=""></a>
+            <a href="https:/www.instagram.com" target="_blank"><img src="./img/instagram.png" alt=""></a>
+            <a href="https:/www.youtube.com" target="_blank"><img src="./img/youtube.png" alt=""></a>
+            <a href="https:/www.pinterest.com" target="_blank"><img src="./img/pinterest.png" alt=""></a>
+        </div>
+    </footer>
+    
+
+
+	<script src="index.js">
+	</script>
+</body>
+
+</html>
